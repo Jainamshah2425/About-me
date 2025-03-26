@@ -2,8 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import {motion} from 'framer-motion';
 import work1 from '../pages/work1.png';
-import work2 from '../pages/work2.png';
-import work3 from '../pages/work3.png';
+import work2 from '../pages/res_img.jpg';
+
 
 
 const Project = () => {
@@ -34,7 +34,7 @@ const Project = () => {
       </h1>
 
       </motion.div>
-      <motion.div
+      {/* <motion.div
       initial={{ y:'-100vw',opacity: 0 }}
       animate={{y:'0', opacity: 1 }}
       transition={{ duration: 1.5}}>
@@ -43,7 +43,7 @@ const Project = () => {
           To-do List using React
         </span>
       
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }
