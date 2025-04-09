@@ -28,9 +28,9 @@ const Project = () => {
       animate={{y:'0', opacity: 1 }}
       transition={{ duration: 2 }}
       className=' '>
-        <img className='h-96 p-2' src={work2}    />
+        <img className='h-96 p-2' src={work2} alt="jd"   />
         <h1 className='flex items-center  text-4xl   absolute top-3/4 left-1/2 '>
-        Calculator using HTML,CSS,Javascript
+        Resume Category Prediction App
       </h1>
 
       </motion.div>
@@ -38,7 +38,7 @@ const Project = () => {
       initial={{ y:'-100vw',opacity: 0 }}
       animate={{y:'0', opacity: 1 }}
       transition={{ duration: 1.5}}>
-        <img className='w-1/2 h-96 p-2' src={work3}/>
+        <img className='w-1/2 h-96 p-2' src={work3} alt="hello"/>
         <span className='text-4xl   relative top-3/4 bottom-64 left-1/2 '>
           To-do List using React
         </span>

@@ -29,9 +29,10 @@ export default App
 
 
 
-// readme ,change contact to experience like winning case study comp hackathon add podcast as well,
-// add social links,based in mumbai,
+// readme ,
+
 // need to add resume ,
 // include three js component in website , 
 // update detail like head of events,
 // add project
+//
